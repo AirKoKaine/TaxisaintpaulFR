@@ -64,5 +64,6 @@ $faqs=['en'=>[["How early should we book for the Cannes Film Festival?","The Can
     <div class="related-card" role="listitem"><span class="rc-num">05</span><h3><?= $L==='fr'?'Chauffeur Monaco':'Monaco Chauffeur' ?></h3><p><?= $L==='fr'?'Véhicule et chauffeur dédiés pour toute la durée du Grand Prix ou de tout événement monégasque.':'Dedicated vehicle and chauffeur for the duration of the Grand Prix or any Monaco event.' ?></p><a class="rc-link" href="/private-chauffeur-monaco.php<?= $L==='fr'?'?lang=fr':'' ?>"><?= _t('btn_discover') ?></a></div>
   </div>
 </div></section>
+<?php require_once __DIR__ . '/_inc/vehira.php'; echo vehira_lien('cannes', $L); ?>
 </main>
 <?php require __DIR__ . '/_inc/footer.php'; ?>

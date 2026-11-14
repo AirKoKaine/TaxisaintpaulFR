@@ -49,5 +49,6 @@ $faqs=['en'=>[["Do you serve remote villas in the hills of Provence?","Yes. Many
     <div class="related-card" role="listitem"><span class="rc-num">06</span><h3><?= $L==='fr'?'Chauffeur Privé CDA':'Private Chauffeur CDA' ?></h3><p><?= $L==='fr'?'Mise à disposition, VVIP, aviation d\'affaires et conciergerie transport sur toute la Côte d\'Azur.':'Full-day hire, VVIP protocol, business aviation and concierge transport across the Riviera.' ?></p><a class="rc-link" href="/chauffeur-prive-cote-dazur.php<?= $L==='fr'?'?lang=fr':'' ?>"><?= _t('btn_discover') ?></a></div>
   </div>
 </div></section>
+<?php require_once __DIR__ . '/_inc/vehira.php'; echo vehira_lien('villa', $L); ?>
 </main>
 <?php require __DIR__ . '/_inc/footer.php'; ?>
