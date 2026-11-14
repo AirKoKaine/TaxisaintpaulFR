@@ -1,0 +1,31 @@
+# TSPDV — Private Chauffeur, French Riviera
+
+> TSPDV (taxisaintpaul.fr) is a private chauffeur house based in Saint-Paul-de-Vence, on the French Riviera. Licensed drivers, Mercedes V-Class and saloon cars, fixed fares agreed before departure. Area served: Menton to Saint-Tropez, including Nice, Cannes, Antibes and Monaco. The site is available in English (default) and French (add `?lang=fr` to any address).
+
+Bookings are taken by phone at +33 6 09 28 55 36 or through the contact page. Fixed-fare journeys can also be booked and paid online with Maison Vehira, the sister chauffeur service run by the same company.
+
+## Services
+
+- [Private chauffeur on the French Riviera](https://taxisaintpaul.fr/chauffeur-prive-cote-dazur.php): hourly hire and point-to-point journeys between Menton and Saint-Tropez
+- [Nice Airport transfers](https://taxisaintpaul.fr/airport-transfer-nice.php): meet and greet at Nice Côte d'Azur Airport, terminals 1 and 2, and the business aviation terminal
+- [Private chauffeur in Monaco](https://taxisaintpaul.fr/private-chauffeur-monaco.php): transfers to and from the Principality, Grand Prix and events
+- [Event chauffeur in Cannes](https://taxisaintpaul.fr/event-chauffeur-cannes.php): Film Festival, MIPIM, Cannes Lions and other congresses
+- [Yacht-side service in Antibes](https://taxisaintpaul.fr/yacht-side-service-antibes.php): pick-up and drop-off at the quays of Port Vauban and the Riviera marinas
+- [Villa transfers in Provence](https://taxisaintpaul.fr/villa-transfers-provence.php): journeys to villas and estates in the hinterland
+
+## Guides
+
+- [French Riviera travel guide](https://taxisaintpaul.fr/french-riviera-travel-guide.php): distances, journey times and places to see along the coast
+
+## Company
+
+- [Home page](https://taxisaintpaul.fr/): overview of the house, the fleet and the services
+- [Contact](https://taxisaintpaul.fr/contact.php): phone, e-mail and booking request
+- [Legal notice](https://taxisaintpaul.fr/mentions-legales.php): publisher and hosting details
+- [Privacy policy](https://taxisaintpaul.fr/politique-confidentialite.php): how personal data is handled
+
+## Optional
+
+- [Online booking with Maison Vehira](https://reservation.maison-vehira.fr/?lang=en): fixed price shown before payment, for Nice Airport, Cannes and Monaco
+- [Maison Vehira](https://maison-vehira.fr/en/): the group's chauffeur house, Monaco to Saint-Tropez
+- [Sitemap](https://taxisaintpaul.fr/sitemap.xml)
