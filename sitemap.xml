@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  TSPDV — taxisaintpaul.fr · sitemap.xml
+  Upload : racine → https://taxisaintpaul.fr/sitemap.xml
+  Mis à jour : 2026
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://taxisaintpaul.fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taxisaintpaul.fr/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://taxisaintpaul.fr/chauffeur-prive-cote-dazur.php"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taxisaintpaul.fr/"/>
+    <image:image>
+      <image:loc>https://taxisaintpaul.fr/assets/location-voiture-cote-azur-cannes-nice-monaco-french-riviera.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://taxisaintpaul.fr/assets/location-voiture-cote-azur-cannes-nice-monaco-view-eze-village.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://taxisaintpaul.fr/assets/location-voiture-cote-azur-cannes-nice-monaco-view-monaco.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://taxisaintpaul.fr/assets/location-voiture-cote-azur-cannes-nice-monaco-nice-airport-terminal2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://taxisaintpaul.fr/?asset=exterior</image:loc>
+    </image:image>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://taxisaintpaul.fr/french-riviera-travel-guide.php</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taxisaintpaul.fr/french-riviera-travel-guide.php"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://taxisaintpaul.fr/french-riviera-travel-guide.php?lang=fr"/>
+    <image:image>
+      <image:loc>https://taxisaintpaul.fr/assets/hotel-carlton-cannes.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://taxisaintpaul.fr/assets/yacht-concierge-cannes-monaco.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://taxisaintpaul.fr/assets/private-helicopter-transfer-nice-cannes-monaco.webp</image:loc>
+    </image:image>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://taxisaintpaul.fr/chauffeur-prive-cote-dazur.php</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://taxisaintpaul.fr/chauffeur-prive-cote-dazur.php"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taxisaintpaul.fr/chauffeur-prive-cote-dazur.php?lang=en"/>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://taxisaintpaul.fr/airport-transfer-nice.php</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taxisaintpaul.fr/airport-transfer-nice.php"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://taxisaintpaul.fr/airport-transfer-nice.php?lang=fr"/>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://taxisaintpaul.fr/yacht-side-service-antibes.php</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taxisaintpaul.fr/yacht-side-service-antibes.php"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://taxisaintpaul.fr/yacht-side-service-antibes.php?lang=fr"/>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://taxisaintpaul.fr/villa-transfers-provence.php</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taxisaintpaul.fr/villa-transfers-provence.php"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://taxisaintpaul.fr/villa-transfers-provence.php?lang=fr"/>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://taxisaintpaul.fr/event-chauffeur-cannes.php</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taxisaintpaul.fr/event-chauffeur-cannes.php"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://taxisaintpaul.fr/event-chauffeur-cannes.php?lang=fr"/>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://taxisaintpaul.fr/private-chauffeur-monaco.php</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taxisaintpaul.fr/private-chauffeur-monaco.php"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://taxisaintpaul.fr/private-chauffeur-monaco.php?lang=fr"/>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+</urlset>

@@ -1,0 +1,81 @@
+# ═══════════════════════════════════════════════════════════════
+# TSPDV — taxisaintpaul.fr · robots.txt
+# Moteurs classiques et assistants IA explicitement bienvenus.
+# ═══════════════════════════════════════════════════════════════
+
+User-agent: *
+Allow: /
+Disallow: /*?download=
+Disallow: /_inc/
+
+# ── Assistants et moteurs de recherche IA : accès autorisé ──
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: Bingbot
+Crawl-delay: 2
+
+User-agent: DuckDuckBot
+Crawl-delay: 2
+
+Sitemap: https://taxisaintpaul.fr/sitemap.xml
