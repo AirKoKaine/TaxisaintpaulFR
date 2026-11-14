@@ -143,7 +143,7 @@ $current_year     = date('Y');
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "<?php echo htmlspecialchars($canonical_url); ?>assets/location-voiture-cote-azur-cannes-nice-monaco-nice-airport-terminal2.webp",
+        "contentUrl": "<?php echo htmlspecialchars($canonical_url); ?>assets/aeroport-nice-terminal-2-departs-large.webp",
         "name": "<?= $L==="fr" ? "Transfert aéroport Nice Côte d'Azur Terminal 2" : "Nice Côte d'Azur Airport Terminal 2 transfer" ?>",
         "description": "<?= $L==="fr" ? "Aéroport Nice Côte d'Azur Terminal 2 — accueil personnalisé et transferts aéroport par chauffeur privé TSPDV" : "Nice Côte d'Azur Airport Terminal 2 — TSPDV meet & greet and private airport transfers" ?>"
       }
@@ -1016,9 +1016,9 @@ $current_year     = date('Y');
   <div class="hero-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-french-riviera.webp" aria-hidden="true"></div>
   <div class="hero-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-view-eze-village-cadre.webp" aria-hidden="true"></div>
   <div class="hero-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-view-monaco-cadre.webp" aria-hidden="true"></div>
-  <div class="hero-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-nice-airport-terminal2-cadre.webp" aria-hidden="true"></div>
+  <div class="hero-slide" data-bg="assets/aeroport-nice-terminal-2-departs-large.webp" aria-hidden="true"></div>
   <div class="hero-slide" data-bg="assets/hotel-carlton-cannes.webp" aria-hidden="true"></div>
-  <div class="hero-slide" data-bg="assets/yacht-concierge-cannes-monaco.webp" aria-hidden="true"></div>
+  <div class="hero-slide" data-bg="assets/yacht-equipage-port-vauban-antibes-large.webp" aria-hidden="true"></div>
   <div class="hero-slide" data-bg="assets/private-helicopter-transfer-nice-cannes-monaco.webp" aria-hidden="true"></div>
   <div class="container hero-content">
     <div class="eyebrow hero-eyebrow"><?= $L==="fr" ? "Chauffeur Privé · Transport Conciergerie" : "Private Chauffeur · Concierge Transport" ?></div>
@@ -1043,10 +1043,10 @@ $current_year     = date('Y');
           <div class="philo-frame-inner">
             <div class="philo-slide active" style="background-image: url('assets/location-voiture-cote-azur-cannes-nice-monaco-view-eze-village-cadre.webp')"></div>
             <div class="philo-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-view-monaco-cadre.webp"></div>
-            <div class="philo-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-nice-airport-terminal2-cadre.webp"></div>
+            <div class="philo-slide" data-bg="assets/aeroport-nice-terminal-2-departs-cadre.webp"></div>
             <div class="philo-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-french-riviera.webp"></div>
             <div class="philo-slide" data-bg="assets/hotel-carlton-cannes.webp"></div>
-            <div class="philo-slide" data-bg="assets/yacht-concierge-cannes-monaco.webp"></div>
+            <div class="philo-slide" data-bg="assets/yacht-equipage-port-vauban-antibes-cadre.webp"></div>
             <div class="philo-slide" data-bg="assets/private-helicopter-transfer-nice-cannes-monaco.webp" style="background-position: 68% center"></div>
             <div class="philo-slide" data-bg="assets/hero-cote-dazur.webp"></div>
           </div>
