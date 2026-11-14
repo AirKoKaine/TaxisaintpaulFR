@@ -138,7 +138,6 @@ $current_year     = date('Y');
     ],
     "url": "<?php echo htmlspecialchars($canonical_url); ?>",
     "telephone": "<?php echo htmlspecialchars($contact_phone); ?>",
-    "email": "<?php echo htmlspecialchars($contact_email); ?>",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Saint-Paul-de-Vence",
@@ -1199,8 +1198,8 @@ $current_year     = date('Y');
         <a href="tel:<?php echo htmlspecialchars($contact_phone_tel); ?>"><?php echo htmlspecialchars($contact_phone); ?></a>
       </div>
       <div class="contact-block">
-        <div class="label"><?= $L==="fr" ? "Correspondance" : "Correspondence" ?></div>
-        <a class="value-small" href="mailto:<?php echo htmlspecialchars($contact_email); ?>"><?php echo htmlspecialchars($contact_email); ?></a>
+        <div class="label"><?= $L==="fr" ? "Réservation en ligne" : "Online booking" ?></div>
+        <a class="value-small" href="https://reservation.maison-vehira.fr/<?= $L==="fr" ? "" : "?lang=en" ?>">reservation.maison-vehira.fr</a>
       </div>
       <div class="contact-block">
         <div class="label">Brochure</div>

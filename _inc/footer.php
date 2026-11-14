@@ -36,7 +36,7 @@
         <h4><?= _t('footer_contact') ?></h4>
         <ul>
           <li><a href="tel:+33609285536">+33 6 09 28 55 36</a></li>
-          <li><a href="mailto:jmmeuret@outlook.com">jmmeuret@outlook.com</a></li>
+          <li><a href="https://reservation.maison-vehira.fr/<?= $lang === 'fr' ? '' : '?lang=en' ?>"><?= $lang === 'fr' ? 'Réserver en ligne' : 'Book online' ?></a></li>
           <li><a href="/?download=brochure"><?= _t('footer_brochure') ?></a></li>
         </ul>
         <div class="footer-lang-switch">
