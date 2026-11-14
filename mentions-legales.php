@@ -1,5 +1,6 @@
 <?php
 require __DIR__ . '/_inc/lang.php';
+require_once __DIR__ . '/_inc/i18n.php';
 
 $schema = json_encode(["@context"=>"https://schema.org","@type"=>"WebPage","name"=>"Mentions Légales — TSPDV Chauffeur Privé Côte d'Azur","url"=>"https://taxisaintpaul.fr/mentions-legales.php"], JSON_UNESCAPED_SLASHES);
 

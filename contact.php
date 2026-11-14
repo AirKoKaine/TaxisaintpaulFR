@@ -1,12 +1,13 @@
 <?php
 require __DIR__ . '/_inc/lang.php';
+require_once __DIR__ . '/_inc/i18n.php';
 
 $schema = json_encode([
   "@context"=>"https://schema.org",
   "@type"=>"ContactPage",
   "name"=>"Contact TSPDV — Private Chauffeur French Riviera",
   "url"=>"https://taxisaintpaul.fr/contact.php",
-  "mainEntity"=>["@type"=>"LocalBusiness","@id"=>"https://taxisaintpaul.fr/#business","name"=>"TSPDV — Private Chauffeur","telephone"=>"+33609285536","email"=>"jmmeuret@outlook.com"]
+  "mainEntity"=>["@type"=>"LocalBusiness","@id"=>"https://taxisaintpaul.fr/#business","name"=>"TSPDV — Private Chauffeur","telephone"=>"+33609285536"]
 ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
 
 $page = [
@@ -68,14 +69,14 @@ require __DIR__ . '/_inc/header.php';
               <div style="font-size:0.82rem; color:var(--muted);">+33 6 09 28 55 36</div>
             </div>
           </a>
-          <!-- Email -->
-          <a href="mailto:jmmeuret@outlook.com"
+          <!-- Réservation en ligne -->
+          <a href="https://reservation.maison-vehira.fr/<?= $lang === 'fr' ? '' : '?lang=en' ?>"
              style="display:flex; align-items:center; gap:20px; padding:24px; border:1px solid rgba(201,168,76,0.25); background:rgba(201,168,76,0.04); transition:border-color 0.3s;"
              onmouseover="this.style.borderColor='rgba(201,168,76,0.6)'" onmouseout="this.style.borderColor='rgba(201,168,76,0.25)'">
-            <span style="font-size:1.5rem;">✉</span>
+            <span style="font-size:1.5rem;">→</span>
             <div>
-              <div style="font-family:var(--font-serif); font-size:1.1rem; color:var(--ivory);"><?= t('cta_email') ?></div>
-              <div style="font-size:0.82rem; color:var(--muted);">jmmeuret@outlook.com</div>
+              <div style="font-family:var(--font-serif); font-size:1.1rem; color:var(--ivory);"><?= $lang === 'fr' ? 'Réserver en ligne' : 'Book online' ?></div>
+              <div style="font-size:0.82rem; color:var(--muted);">reservation.maison-vehira.fr</div>
             </div>
           </a>
         </div>
