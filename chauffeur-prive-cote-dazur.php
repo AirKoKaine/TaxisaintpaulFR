@@ -60,5 +60,6 @@ $faqs=['en'=>[["What is the difference between a VTC and a full-day chauffeur hi
     <div class="related-card" role="listitem"><span class="rc-num">04</span><h3><?= $L==='fr'?'Coordination Événementielle':'Event Coordination' ?></h3><p><?= $L==='fr'?'Déploiement multi-véhicules pour Festival de Cannes, MIPIM, mariages et galas privés.':'Multi-vehicle deployment for Cannes Film Festival, MIPIM, weddings and private galas.' ?></p><a class="rc-link" href="/event-chauffeur-cannes.php<?= $L==='fr'?'?lang=fr':'' ?>"><?= _t('btn_discover') ?></a></div>
   </div>
 </div></section>
+<?php require_once __DIR__ . '/_inc/vehira.php'; echo vehira_lien('chauffeur', $L); ?>
 </main>
 <?php require __DIR__ . '/_inc/footer.php'; ?>

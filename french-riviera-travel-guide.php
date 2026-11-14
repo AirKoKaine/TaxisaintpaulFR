@@ -270,6 +270,7 @@ $faqs = [
     </div>
   </div>
 </section>
+<?php require_once __DIR__ . '/_inc/vehira.php'; echo vehira_lien('guide', $L); ?>
 </main>
 
 <?php require __DIR__ . '/_inc/footer.php'; ?>

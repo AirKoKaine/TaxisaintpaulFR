@@ -51,5 +51,6 @@ $faqs=['en'=>[["Which ports do you serve?","TSPDV serves all major ports along t
     <div class="related-card" role="listitem"><span class="rc-num">05</span><h3><?= $L==='fr'?'Chauffeur Monaco':'Monaco Chauffeur' ?></h3><p><?= $L==='fr'?'Chauffeur privé dédié dans et autour de la Principauté pour toute la durée de votre séjour.':'Dedicated private chauffeur in and around the Principality for the duration of your stay.' ?></p><a class="rc-link" href="/private-chauffeur-monaco.php<?= $L==='fr'?'?lang=fr':'' ?>"><?= _t('btn_discover') ?></a></div>
   </div>
 </div></section>
+<?php require_once __DIR__ . '/_inc/vehira.php'; echo vehira_lien('yacht', $L); ?>
 </main>
 <?php require __DIR__ . '/_inc/footer.php'; ?>

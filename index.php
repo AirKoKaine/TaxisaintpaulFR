@@ -1178,6 +1178,8 @@ $current_year     = date('Y');
   </div>
 </section>
 
+<?php require_once __DIR__ . '/_inc/vehira.php'; echo vehira_lien('accueil', $L, 'clair'); ?>
+
 <!-- =============== CONTACT =============== -->
 <section class="contact" id="contact">
   <div class="container">
