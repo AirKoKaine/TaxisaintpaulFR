@@ -12,9 +12,9 @@ function vehira_lien($cle, $lang, $fond = 'sombre') {
     $V = 'https://maison-vehira.fr';
     $R = 'https://reservation.maison-vehira.fr/' . ($lang === 'fr' ? '' : '?lang=en');
     $clair = ($fond === 'clair');
-    $cLien  = $clair ? '#8a6a2f' : '#dfc48e';
+    $cLien  = $clair ? '#6b5220' : '#dfc48e';
     $cTexte = $clair ? '#2a2620' : 'rgba(245,241,232,.78)';
-    $cTitre = $clair ? '#8a6a2f' : '#c8a96e';
+    $cTitre = $clair ? '#6b5220' : '#c8a96e';
     $a = function ($url, $texte) use ($cLien) {
         return '<a href="' . $url . '" style="color:' . $cLien . ';text-decoration:underline;text-underline-offset:3px;">' . $texte . '</a>';
     };

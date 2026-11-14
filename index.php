@@ -157,7 +157,8 @@ $current_year     = date('Y');
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@200;300;400;500;600&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@200;300;400;500;600&display=swap"></noscript>
 
   <style>
     :root {
@@ -252,6 +253,9 @@ $current_year     = date('Y');
     .nav-brand-logo {
       height: 44px;
       width: auto;
+      aspect-ratio: 95 / 86;
+      flex: none;
+      object-fit: contain;
       display: block;
     }
     .nav-brand-sub {
@@ -939,7 +943,7 @@ $current_year     = date('Y');
       font-size: 11px;
       letter-spacing: 0.15em;
       text-transform: uppercase;
-      color: var(--gris);
+      color: var(--gris-pale);
     }
 
     /* ====================== Reveal animation ====================== */
@@ -962,7 +966,7 @@ $current_year     = date('Y');
     <a href="#hero" class="nav-brand">
       <picture>
         <source srcset="assets/logo-tspdv-120.webp" type="image/webp">
-        <img src="assets/logo-tspdv-120.png" alt="Logo TSPDV" class="nav-brand-logo">
+        <img src="assets/logo-tspdv-120.png" alt="Logo TSPDV" class="nav-brand-logo" width="95" height="86">
       </picture>
       <div>
         TSPDV
@@ -994,9 +998,9 @@ $current_year     = date('Y');
 <section class="hero" id="hero">
   <div class="hero-slide active" style="background-image: url('assets/hero-cote-dazur.webp')" aria-hidden="true"></div>
   <div class="hero-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-french-riviera.webp" aria-hidden="true"></div>
-  <div class="hero-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-view-eze-village.webp" aria-hidden="true"></div>
-  <div class="hero-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-view-monaco.webp" aria-hidden="true"></div>
-  <div class="hero-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-nice-airport-terminal2.webp" aria-hidden="true"></div>
+  <div class="hero-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-view-eze-village-cadre.webp" aria-hidden="true"></div>
+  <div class="hero-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-view-monaco-cadre.webp" aria-hidden="true"></div>
+  <div class="hero-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-nice-airport-terminal2-cadre.webp" aria-hidden="true"></div>
   <div class="hero-slide" data-bg="assets/hotel-carlton-cannes.webp" aria-hidden="true"></div>
   <div class="hero-slide" data-bg="assets/yacht-concierge-cannes-monaco.webp" aria-hidden="true"></div>
   <div class="hero-slide" data-bg="assets/private-helicopter-transfer-nice-cannes-monaco.webp" aria-hidden="true"></div>
@@ -1021,9 +1025,9 @@ $current_year     = date('Y');
         <div class="label"><?= $L==="fr" ? "Philosophie" : "Philosophy" ?></div>
         <div class="philo-frame" aria-hidden="true">
           <div class="philo-frame-inner">
-            <div class="philo-slide active" style="background-image: url('assets/location-voiture-cote-azur-cannes-nice-monaco-view-eze-village.webp')"></div>
-            <div class="philo-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-view-monaco.webp"></div>
-            <div class="philo-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-nice-airport-terminal2.webp"></div>
+            <div class="philo-slide active" style="background-image: url('assets/location-voiture-cote-azur-cannes-nice-monaco-view-eze-village-cadre.webp')"></div>
+            <div class="philo-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-view-monaco-cadre.webp"></div>
+            <div class="philo-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-nice-airport-terminal2-cadre.webp"></div>
             <div class="philo-slide" data-bg="assets/location-voiture-cote-azur-cannes-nice-monaco-french-riviera.webp"></div>
             <div class="philo-slide" data-bg="assets/hotel-carlton-cannes.webp"></div>
             <div class="philo-slide" data-bg="assets/yacht-concierge-cannes-monaco.webp"></div>
@@ -1057,31 +1061,31 @@ $current_year     = date('Y');
         <div class="service-num">01</div>
         <h3><?= $L==="fr" ? "Chauffeur Privé" : "Private Chauffeur" ?></h3>
         <p><?= $L==="fr" ? "Réservations à la demi-journée, à la journée ou sur plusieurs jours, avec chauffeur et véhicule dédiés à votre hôte pour toute la durée." : "Half-day, full-day, and multi-day reservations with a dedicated chauffeur and vehicle assigned to your guest for the duration." ?></p>
-        <a href="/private-chauffeur-monaco.php<?= $L==="fr" ? "?lang=fr" : "" ?>" class="svc-link"><?= $L==="fr" ? "Découvrir &rarr;" : "Discover &rarr;" ?></a>
+        <a href="/private-chauffeur-monaco.php<?= $L==="fr" ? "?lang=fr" : "" ?>" class="svc-link" aria-label="Discover: private chauffeur monaco"><?= $L==="fr" ? "Découvrir &rarr;" : "Discover &rarr;" ?></a>
       </div>
       <div class="service reveal">
         <div class="service-num">02</div>
         <h3><?= $L==="fr" ? "Service Yacht-Side" : "Yacht-Side Service" ?></h3>
         <p><?= $L==="fr" ? "Prise en charge et retour à quai pour propriétaires et hôtes de charter à Antibes, Cannes, Saint-Tropez, Monaco et sur toute la Riviera." : "Quayside collection and return for owners and charter guests in Antibes, Cannes, Saint-Tropez, Monaco, and along the entire Riviera." ?></p>
-        <a href="/yacht-side-service-antibes.php<?= $L==="fr" ? "?lang=fr" : "" ?>" class="svc-link"><?= $L==="fr" ? "Découvrir &rarr;" : "Discover &rarr;" ?></a>
+        <a href="/yacht-side-service-antibes.php<?= $L==="fr" ? "?lang=fr" : "" ?>" class="svc-link" aria-label="Discover: yacht side service antibes"><?= $L==="fr" ? "Découvrir &rarr;" : "Discover &rarr;" ?></a>
       </div>
       <div class="service reveal">
         <div class="service-num">03</div>
         <h3><?= $L==="fr" ? "Transferts de Villa" : "Villa Transfers" ?></h3>
         <p><?= $L==="fr" ? "Transport discret entre villas privées, grandes tables, boutiques de créateurs et propriétés partenaires à travers les collines de Provence." : "Discreet transport between private villas, fine restaurants, designer boutiques, and partner properties across the hills of Provence." ?></p>
-        <a href="/villa-transfers-provence.php<?= $L==="fr" ? "?lang=fr" : "" ?>" class="svc-link"><?= $L==="fr" ? "Découvrir &rarr;" : "Discover &rarr;" ?></a>
+        <a href="/villa-transfers-provence.php<?= $L==="fr" ? "?lang=fr" : "" ?>" class="svc-link" aria-label="Discover: villa transfers provence"><?= $L==="fr" ? "Découvrir &rarr;" : "Discover &rarr;" ?></a>
       </div>
       <div class="service reveal">
         <div class="service-num">04</div>
         <h3><?= $L==="fr" ? "Coordination Événementielle" : "Event Coordination" ?></h3>
         <p><?= $L==="fr" ? "Déploiements coordonnés de plusieurs véhicules pour mariages, galas d’entreprise et réceptions privées — avec rotations échelonnées au retour." : "Coordinated multi-vehicle deployments for weddings, corporate galas, and private receptions — with staggered rotations on the return." ?></p>
-        <a href="/event-chauffeur-cannes.php<?= $L==="fr" ? "?lang=fr" : "" ?>" class="svc-link"><?= $L==="fr" ? "Découvrir &rarr;" : "Discover &rarr;" ?></a>
+        <a href="/event-chauffeur-cannes.php<?= $L==="fr" ? "?lang=fr" : "" ?>" class="svc-link" aria-label="Discover: event chauffeur cannes"><?= $L==="fr" ? "Découvrir &rarr;" : "Discover &rarr;" ?></a>
       </div>
       <div class="service reveal">
         <div class="service-num">05</div>
         <h3><?= $L==="fr" ? "Liaison Aéroport" : "Airport Liaison" ?></h3>
         <p><?= $L==="fr" ? "Accueil personnalisé à Nice, Cannes-Mandelieu et à l’héliport de Monaco, avec assistance bagages et transfert silencieux vers votre destination." : "Meet-and-greet collection at Nice, Cannes-Mandelieu, and Monaco heliport, with luggage assistance and silent transfer to your destination." ?></p>
-        <a href="/airport-transfer-nice.php<?= $L==="fr" ? "?lang=fr" : "" ?>" class="svc-link"><?= $L==="fr" ? "Découvrir &rarr;" : "Discover &rarr;" ?></a>
+        <a href="/airport-transfer-nice.php<?= $L==="fr" ? "?lang=fr" : "" ?>" class="svc-link" aria-label="Discover: airport transfer nice"><?= $L==="fr" ? "Découvrir &rarr;" : "Discover &rarr;" ?></a>
       </div>
       <div class="service reveal">
         <div class="service-num">06</div>
@@ -1113,7 +1117,7 @@ $current_year     = date('Y');
         </ul>
       </div>
       <div class="fleet-images reveal">
-        <div class="fleet-img" style="background-image: url('?asset=exterior')"></div>
+        <div class="fleet-img" style="background-image: url('assets/fleet-mercedes-classe-v-exterieur.webp')"></div>
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
           <div class="fleet-img" style="background-image: url('?asset=cabin'); min-height: 240px;"></div>
           <div class="fleet-img" style="background-image: url('?asset=seats'); min-height: 240px;"></div>
