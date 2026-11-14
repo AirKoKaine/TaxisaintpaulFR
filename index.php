@@ -1248,7 +1248,7 @@ $current_year     = date('Y');
       else nav.classList.remove('scrolled');
     };
     window.addEventListener('scroll', onScroll, { passive: true });
-    onScroll();
+    requestAnimationFrame(onScroll);
   })();
 
   // Reveal on scroll
