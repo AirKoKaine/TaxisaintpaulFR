@@ -1,4 +1,21 @@
 <?php
+
+/* ─── Adresse inconnue : vraie réponse 404 ───────────────────────
+   Le serveur renvoie vers ce fichier toute adresse qui n'existe pas.
+   Sans ce contrôle, la page d'accueil était servie avec un code 200. */
+$chemin_demande = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
+if (!in_array($chemin_demande, ['/', '/index.php', null, false, ''], true)) {
+    http_response_code(404);
+    header('Content-Type: text/html; charset=UTF-8');
+    header('X-Robots-Tag: noindex');
+    echo '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>Page not found | TSPDV</title></head>'
+       . '<body style="margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0a0a0a;color:#f5f1e8;font-family:Georgia,serif;text-align:center;padding:24px;box-sizing:border-box">'
+       . '<main><p style="letter-spacing:.3em;text-transform:uppercase;font-size:12px;color:#d4b87a">TSPDV · 404</p>'
+       . '<h1 style="font-weight:400;font-size:34px;margin:18px 0">Page not found<br><span style="font-style:italic;color:#d4b87a">Page introuvable</span></h1>'
+       . '<p><a href="/" style="color:#d4b87a">Back to the home page</a> · <a href="/?lang=fr" style="color:#d4b87a">Retour à l\'accueil</a></p></main></body></html>';
+    exit;
+}
+
 /**
  * TSPDV — Private Chauffeur Services
  * https://saint-paul-de-vence.taxi
